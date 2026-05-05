@@ -1,0 +1,56 @@
+body{
+  margin: 0px;
+  color: whitesmoke;
+  font-family: sans-serif;
+  background-color: rgb(33, 33, 33);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.HEADER{
+  display: flex;
+  background-color: rgb(0, 0, 0);
+  border-bottom: 2PX solid rgb(73, 73, 255);
+  width: 100%;
+  height: 125PX;
+}
+
+.LOGO{
+  margin-right: auto;
+}
+
+.BTN{
+  font-size: 18px;
+  font-weight: 700;
+  background-color: rgb(73, 73, 255);
+  color: whitesmoke;
+  display: flex;
+  text-decoration: none;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 50px;
+  align-self: center;
+  border-radius: 5px;
+  transition: 0.2s;
+  margin-right: 30px;
+}
+
+.BTN:hover{
+  opacity: 0.9;
+}
+
+.BTN:active{
+  opacity: 0.7;
+}
+
+.MAIN{
+  background-color: rgb(0, 0, 0);
+  text-align: center;
+  margin-top: 170px;
+  width: 500px;
+  height: 315px;
+  border: 2PX solid rgb(73, 73, 255);
+  border-radius: 5px;
+}

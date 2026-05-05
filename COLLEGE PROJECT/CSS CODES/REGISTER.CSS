@@ -1,0 +1,179 @@
+body{
+  height: 850px;
+  margin: 0px;
+  color: whitesmoke;
+  font-family: sans-serif;
+  font-weight: 700;
+  background-color: rgb(33, 33, 33);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.HOME{
+  font-size: 18px;
+  font-weight: 700;
+  background-color: rgb(73, 73, 255);
+  color: whitesmoke;
+  display: flex;
+  text-decoration: none;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 50px;
+  border-radius: 5px;
+  transition: 0.2s;
+  align-self: self-end;
+  margin-top: 30PX;
+  margin-right: 35PX;
+}
+
+.HOME:hover{
+  opacity: 0.9;
+}
+
+.HOME:active{
+  opacity: 0.7;
+}
+
+.MAIN{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr; 
+  grid-template-areas: "CA CA CA CA"
+                       "LOGO LOGO LOGO LOGO"
+                       "FN FN SN SN"
+                       "FNB FNB SNB SNB"
+                       "EW EML EML EML"
+                       "PW PSD PSD PSD"
+                       "WORD WORD WORD WORD"
+                       "LM LT PM PH"
+                       "REG REG REG REG"
+                       "LINK LINK LINK LINK";
+  align-items: center;
+  justify-items: center;
+  background-color: black;
+  margin-top: 70PX;
+  width: 500px;
+  height: 650px;
+  border: 2PX solid rgb(73, 73, 255);
+  border-radius: 7px;
+}
+
+.CA{grid-area: CA;
+  font-size: 25px;
+  margin-bottom: -40PX;
+}
+
+img{grid-area: LOGO;
+  margin-bottom: -45PX;
+}
+
+#W{
+  align-self: flex-end;
+  justify-self: left;
+  margin-left: 22PX; 
+}
+
+#T{
+  width: 200px;
+  height: 25px;
+  outline: none;
+  border-radius: 3PX;
+  border: none;
+  padding: 3px;
+  font-size: 17px;
+}
+
+#T:focus{
+  border: 3PX solid rgb(73, 73, 255);
+}
+
+.FNB{grid-area: FNB;}
+
+.SNB{grid-area: SNB;}
+
+.FN{grid-area: FN;
+  margin-bottom: -15PX;
+}
+
+.SN{grid-area: SN;
+  margin-bottom: -15PX;
+}
+
+.EML{grid-area: EML;
+  justify-self: left;
+  margin-left: -51PX;
+}
+
+.PSD{grid-area: PSD;
+  justify-self: left;
+  margin-left: -19PX; 
+}
+
+.EW{grid-area: EW;
+  margin-left: -32PX;
+
+}
+
+.PW{grid-area: PW;}
+
+.WORD{grid-area: WORD;
+  justify-self: left;
+  font-size: 20px;
+  margin-left: 22PX;
+}
+
+.LM{grid-area: LM;
+  font-size: 20px;
+  justify-self: right;
+}
+
+.PM{grid-area: PM;
+  font-size: 20px;
+  justify-self: right;
+}
+
+.LT{grid-area: LT;
+  accent-color: rgb(73, 73, 255);
+  justify-self: left;
+}
+
+.PH{grid-area: PH;
+  accent-color: rgb(73, 73, 255);
+  justify-self: left;
+}
+
+.REG{grid-area: REG;
+  background-color: rgb(73, 73, 255);
+  width: 350PX;
+  height: 40PX;
+  border: none;
+  border-radius: 3PX;
+  color: whitesmoke;
+  font-size: 20PX;
+  font-weight: 500;
+  margin-bottom: -5px;
+  transition: 0.2S;
+}
+
+.REG:hover{
+  opacity: 0.9;
+}
+
+.REG:active{
+  opacity: 0.7;
+}
+
+p{grid-area: LINK;
+  font-size: 18px;
+}
+
+p a{
+  font-weight: 500;
+  color: whitesmoke;
+  transition: 0.2s;
+}
+
+p a:hover{
+  opacity: 0.8;
+}

@@ -1,0 +1,124 @@
+body{
+  height: 850px;
+  margin: 0px;
+  color: whitesmoke;
+  font-family: sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+  background-color: rgb(33, 33, 33);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.HOME{
+  font-size: 18px;
+  font-weight: 700;
+  background-color: rgb(73, 73, 255);
+  color: whitesmoke;
+  display: flex;
+  text-decoration: none;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 50px;
+  border-radius: 5px;
+  transition: 0.2s;
+  align-self: self-end;
+  margin-top: 30PX;
+  margin-right: 35PX;
+}
+
+.HOME:hover{
+  opacity: 0.9;
+}
+
+.HOME:active{
+  opacity: 0.7;
+}
+
+.MAIN{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: black;
+  margin-top: 100PX;
+  width: 400px;
+  height: 525px;
+  border: 2PX solid rgb(73, 73, 255);
+  border-radius: 7px;
+}
+
+.LC{ 
+margin-top: 10px;
+}
+
+img{
+  margin-bottom: -30px;
+  margin-top: -25px;
+}
+
+#W{
+  align-self: self-start;
+  margin-left: 15px;
+  font-size: large;
+}
+
+#T{
+  width: 365px;
+  height: 25px;
+  outline: none;
+  border-radius: 3PX;
+  border: none;
+  padding: 3px;
+  font-size: 17px;
+  margin-bottom: 10px;
+}
+
+#T:focus{
+  border: 3PX solid rgb(73, 73, 255);
+}
+
+.BOX{
+  accent-color: rgb(73, 73, 255);
+}
+
+.WORD{
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.LOG{
+  background-color: rgb(73, 73, 255);
+  width: 350PX;
+  height: 40PX;
+  border: none;
+  border-radius: 3PX;
+  color: whitesmoke;
+  font-size: 20PX;
+  font-weight: 500; 
+  transition: 0.2S;
+}
+
+.LOG:hover{
+  opacity: 0.9;
+}
+
+.LOG:active{
+  opacity: 0.7;
+}
+
+.LINK{
+  font-size: 17px;
+}
+
+.LINK a{
+  font-weight: 500;
+  color: whitesmoke;
+  transition: 0.2s;
+}
+
+.LINK a:hover{
+  opacity: 0.8;
+}
